@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vu Thi Cam Anh - International Business & Data Analyst</title>
+    
+    <style>
+        /* MÀU CHỦ ĐẠO: BURGUNDY/DEEP PINK (#880E4F) */
+        
+        /* ------------------------------------- */
+        /* THIẾT LẬP CHUNG VÀ BỐ CỤC */
+        /* ------------------------------------- */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+            background-color: #ffffff;
+            color: #333;
+            box-shadow: 0 0 20px rgba(0,0,0,0.05);
+        }
+
+        /* ------------------------------------- */
+        /* TIÊU ĐỀ */
+        /* ------------------------------------- */
+        h1 {
+            color: #880E4F;
+            font-size: 2.8em;
+            margin-bottom: 0px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        h2 {
+            color: #495057;
+            font-size: 1.5em;
+            border-bottom: 3px solid #880E4F;
+            padding-bottom: 8px;
+            margin-top: 35px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* ------------------------------------- */
+        /* ẢNH ĐẠI DIỆN */
+        /* ------------------------------------- */
+        .profile-photo {
+            width: 160px; 
+            height: 160px;
+            border-radius: 50%; /* Làm ảnh tròn */
+            object-fit: cover; 
+            margin: 0 auto 30px auto; /* Canh giữa và tạo khoảng cách */
+            border: 5px solid #F8BBD0; /* Viền hồng nhạt */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: block; 
+        }
+
+        /* ------------------------------------- */
+        /* THÔNG TIN CHI TIẾT */
+        /* ------------------------------------- */
+        .header-contact p {
+            margin: 3px 0;
+            font-size: 0.95em;
+            color: #555;
+        }
+        .section-item {
+            margin-bottom: 25px;
+            padding-left: 15px;
+            border-left: 3px solid #F8BBD0;
+        }
+        .job-title, .school-name {
+            font-weight: 700;
+            color: #343a40;
+            font-size: 1.1em;
+        }
+        .job-dates, .school-dates {
+            font-style: italic;
+            color: #6c757d;
+            font-size: 0.9em;
+            margin-top: 2px;
+            display: block;
+        }
+        .section-item ul {
+            margin-top: 5px;
+            padding-left: 20px;
+            list-style-type: '— ';
+        }
+        .section-item ul li {
+            margin-bottom: 5px;
+        }
+
+        /* ------------------------------------- */
+        /* KỸ NĂNG */
+        /* ------------------------------------- */
+        .skills-list {
+            list-style: none;
+            padding-left: 0;
+            margin-top: 10px;
+        }
+        .skills-list li {
+            display: inline-block;
+            background: #880E4F;
+            color: white;
+            padding: 8px 15px;
+            margin: 5px 8px 5px 0;
+            border-radius: 5px;
+            font-size: 0.9em;
+            font-weight: 500;
+        }
+        .gpa-details {
+            list-style: none;
+            padding-left: 0;
+        }
+        .gpa-details li {
+            margin-bottom: 5px;
+            background: #FCE4EC;
+            padding: 5px 10px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-contact">
+        <img src="images/profile.jpg" alt="Profile Picture" class="profile-photo">
+        <h1>VU THI CAM ANH</h1>
+        <p><strong>Title:</strong> International Business & Data Analyst</p>
+        <p><strong>Phone:</strong> (+84) 336803229</p>
+        <p><strong>Email:</strong> camanh2292016@gmail.com</p>
+        <p><strong>Address:</strong> Hanoi, Vietnam</p>
+    </div>
+
+    <h2>EDUCATION</h2>
+    <div class="section-item">
+        <div class="school-name">FOREIGN TRADE UNIVERSITY</div>
+        <div class="school-dates">Sep 2023 – Present</div>
+        <p>Bachelor of International Business and Economics (GPA: 4.0/4.0 – 9.4/10)</p>
+        <ul class="gpa-details">
+            <li>- Taxation and Tax System in Viet Nam: 9.8/10</li>
+            <li>- Principles of Accounting: 8.9/10</li>
+            <li>- Principles of Finance: 8.5/10</li>
+        </ul>
+    </div>
+
+    <div class="section-item">
+        <div class="school-name">SOPHIA UNIVERSITY</div>
+        <div class="school-dates">2025</div>
+        <p>Faculty of Liberal Arts – Exchange Student (GPA: 3.67/4.0)</p>
+        <p>Courses: International Business, International Communication, Japanese</p>
+    </div>
+
+    <h2>COURSES</h2>
+    <ul class="gpa-details">
+        <li>- IBM Data Analyst Professional Certificate | IBM (Oct 2025)</li>
+        <li>- Google Business Intelligence | Google (Oct 2025)</li>
+        <li>- Inbound Marketing Optimization | Hubspot Academy (Sept 2025)</li>
+        <li>- Market Research and Consumer Behavior | IE BUSINESS SCHOOL (May 2024)</li>
+    </ul>
+
+    <h2>WORKING EXPERIENCE</h2>
+    
+    <div class="section-item">
+        <div class="job-title">Deputy Head of Media and Communication | EACC - FTU</div>
+        <div class="job-dates">Sept 2024 – Jun 2025</div>
+        <ul>
+            <li>Led a team of 11 members, applying data-driven strategies to optimize communication campaigns.</li>
+            <li>Collected and analyzed engagement metrics from social media, increasing event reach and participation.</li>
+            <li>Coordinated with internal and external partners to ensure effective data-based communication strategies.</li>
+        </ul>
+    </div>
+
+    <div class="section-item">
+        <div class="job-title">Internal Communications Coordinator | Living Skill Club - FTU</div>
+        <div class="job-dates">Oct 2023 – Sept 2024</div>
+        <ul>
+            <li>Analyzed feedback from nearly 100 community members to improve internal engagement.</li>
+            <li>Created performance dashboards to track member participation and retention.</li>
+            <li>Promoted data-informed activities that enhanced cohesion across the organization.</li>
+        </ul>
+    </div>
+    
+    <div class="section-item">
+        <div class="job-title">Head of Human Resources | ECLUB – CSP English Club</div>
+        <div class="job-dates">Oct 2020 – June 2022</div>
+        <ul>
+            <li>Implemented member performance tracking using data collection tools.</li>
+            <li>Managed operations and revenue from club events, analyzing income and expenses (~$320).</li>
+            <li>Designed initiatives to strengthen member learning and development through measurable KPIs.</li>
+        </ul>
+    </div>
+
+    <h2>HONORS AND AWARDS</h2>
+    <ul class="gpa-details">
+        <li><strong>First Runner-up – I-Impact Academic Startup Competition (2025)</strong></li>
+        <li><strong>Academic Excellence Scholarship – Foreign Trade University (2023 - 2024)</strong></li>
+        <li><strong>Academic Excellence Scholarship - Vietcombank (2024)</strong></li>
+        <li><strong>Honorable Mention, Scientific Research Competition (2025)</strong>: Researched intellectual property issues in Vietnamese universities.</li>
+        <li><strong>Scholarship For Excellent Exchange Students - Sophia University (2025)</strong></li>
+        <li><strong>Certificate Of Achievement from the School of International Economics and Business - FTU (2024)</strong></li>
+    </ul>
+    
+    <h2>SKILLS</h2>
+    <ul class="skills-list">
+        <li>English</li>
+        <li>Statistics</li>
+        <li>Data Visualization</li>
+        <li>Problem solving</li>
+        <li>Analytical thinking</li>
+        <li>MS Word, Excel, and PowerPoint</li>
+    </ul>
+
+</body>
+</html>
