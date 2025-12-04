@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vũ Thị Cẩm Anh - International Business & Data Analyst</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #555;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        .section-item {
+            margin-bottom: 20px;
+        }
+        .header-contact p {
+            margin: 5px 0;
+        }
+        .skills-list, .gpa-details {
+            list-style: none;
+            padding-left: 0;
+        }
+        .skills-list li {
+            display: inline-block;
+            background: #eee;
+            padding: 5px 10px;
+            margin: 5px 5px 5px 0;
+            border-radius: 3px;
+        }
+        .gpa-details li {
+            margin-bottom: 5px;
+        }
+        .job-title, .school-name {
+            font-weight: bold;
+        }
+        .job-dates, .school-dates {
+            font-style: italic;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-contact">
+        <h1>VŨ THỊ CẨM ANH</h1>
+        <p><strong>Chức danh:</strong> Sinh viên Ngành Kinh tế & Kinh doanh Quốc tế</p>
+        [cite_start]<p><strong>Điện thoại:</strong> (+84) 336803229 [cite: 1]</p>
+        [cite_start]<p><strong>Email:</strong> camanh2292016@gmail.com [cite: 1]</p>
+        [cite_start]<p><strong>Địa chỉ:</strong> Hà Nội, Việt Nam [cite: 1]</p>
+    </div>
+
+    [cite_start]<h2>HỌC VẤN [cite: 2]</h2>
+    <div class="section-item">
+        [cite_start]<div class="school-name">ĐẠI HỌC NGOẠI THƯƠNG (FOREIGN TRADE UNIVERSITY) [cite: 3]</div>
+        <div class="school-dates">Tháng 9, 2023 – Hiện tại</div>
+        [cite_start]<p>Cử nhân Kinh tế và Kinh doanh Quốc tế [cite: 4] (GPA: 4.0/4.0 – 9.4/10) [cite_start][cite: 4]</p>
+        <ul class="gpa-details">
+            [cite_start]<li>- Thuế và Hệ thống thuế tại Việt Nam: 9.8/10 [cite: 5]</li>
+            [cite_start]<li>- Nguyên lý Kế toán: 8.9/10 [cite: 5]</li>
+            [cite_start]<li>- Nguyên lý Tài chính: 8.5/10 [cite: 5]</li>
+        </ul>
+    </div>
+
+    <div class="section-item">
+        [cite_start]<div class="school-name">ĐẠI HỌC SOPHIA (SOPHIA UNIVERSITY) [cite: 6]</div>
+        [cite_start]<div class="school-dates">2025 [cite: 7]</div>
+        [cite_start]<p>Khoa Nghệ thuật Tự do – Sinh viên Trao đổi [cite: 8] (GPA: 3.67/4.0) [cite_start][cite: 8]</p>
+        [cite_start]<p>Môn học: Kinh doanh Quốc tế, Truyền thông Quốc tế, Tiếng Nhật [cite: 9]</p>
+    </div>
+
+    [cite_start]<h2>KHÓA HỌC [cite: 10]</h2>
+    <ul class="gpa-details">
+        <li>- IBM Data Analyst Professional Certificate | [cite_start]IBM (Tháng 10, 2025) [cite: 11]</li>
+        <li>- Google Business Intelligence | [cite_start]Google (Tháng 10, 2025) [cite: 12]</li>
+        <li>- Inbound Marketing Optimization | [cite_start]Hubspot Academy (Tháng 9, 2025) [cite: 13]</li>
+        <li>- Market Research and Consumer Behavior | [cite_start]IE Business School (Tháng 5, 2024) [cite: 14]</li>
+    </ul>
+
+    [cite_start]<h2>KINH NGHIỆM LÀM VIỆC [cite: 15]</h2>
+    
+    <div class="section-item">
+        <div class="job-title">Phó Ban Truyền thông | EACC (External Affairs Cultural Club) - FTU</div>
+        [cite_start]<div class="job-dates">Tháng 9, 2024 – Tháng 6, 2025 [cite: 16]</div>
+        <ul>
+            [cite_start]<li>Dẫn dắt đội ngũ 11 thành viên, áp dụng chiến lược dựa trên dữ liệu để tối ưu hóa các chiến dịch truyền thông. [cite: 16]</li>
+            [cite_start]<li>Thu thập và phân tích các chỉ số tương tác từ mạng xã hội, tăng phạm vi tiếp cận và sự tham gia sự kiện. [cite: 16]</li>
+            [cite_start]<li>Phối hợp với các đối tác bên trong và bên ngoài để đảm bảo chiến lược truyền thông dựa trên dữ liệu hiệu quả. [cite: 16]</li>
+        </ul>
+    </div>
+
+    <div class="section-item">
+        <div class="job-title">Điều phối viên Truyền thông Nội bộ | Living Skill Club - FTU</div>
+        [cite_start]<div class="job-dates">Tháng 10, 2023 – Tháng 9, 2024 [cite: 16]</div>
+        <ul>
+            [cite_start]<li>Phân tích phản hồi từ gần 100 thành viên cộng đồng để cải thiện sự gắn kết nội bộ. [cite: 16]</li>
+            [cite_start]<li>Tạo bảng điều khiển hiệu suất để theo dõi sự tham gia và duy trì thành viên. [cite: 16]</li>
+            [cite_start]<li>Thúc đẩy các hoạt động dựa trên dữ liệu, tăng cường sự gắn kết trong toàn tổ chức. [cite: 16]</li>
+        </ul>
+    </div>
+
+    [cite_start]<h2>GIẢI THƯỞNG VÀ DANH HIỆU [cite: 17]</h2>
+    <ul class="gpa-details">
+        [cite_start]<li><strong>Á quân 1 – Cuộc thi Khởi nghiệp Học thuật I-Impact (2025)</strong> [cite: 18]</li>
+        [cite_start]<li><strong>Học bổng Xuất sắc Học thuật – Đại học Ngoại Thương (2023 - 2024)</strong> [cite: 18]</li>
+        [cite_start]<li><strong>Học bổng Xuất sắc Học thuật - Vietcombank (2024)</strong> [cite: 18]</li>
+        [cite_start]<li><strong>Bằng khen, Cuộc thi Nghiên cứu Khoa học (2025)</strong>: Nghiên cứu về sở hữu trí tuệ tại các trường đại học Việt Nam. [cite: 18]</li>
+        [cite_start]<li><strong>Học bổng Dành cho Sinh viên Trao đổi Xuất sắc - Sophia University (2025)</strong> [cite: 18]</li>
+        [cite_start]<li><strong>Giấy chứng nhận Thành tích từ Khoa Kinh tế & Kinh doanh Quốc tế - FTU (2024)</strong> [cite: 18]</li>
+    </ul>
+    
+    [cite_start]<h2>KỸ NĂNG [cite: 19]</h2>
+    <ul class="skills-list">
+        [cite_start]<li>Tiếng Anh [cite: 20]</li>
+        [cite_start]<li>Thống kê [cite: 20]</li>
+        [cite_start]<li>Giải quyết vấn đề [cite: 20]</li>
+        [cite_start]<li>Trực quan hóa Dữ liệu (Data Visualization) [cite: 20]</li>
+        [cite_start]<li>Tư duy Phân tích (Analytical thinking) [cite: 20]</li>
+        [cite_start]<li>MS Word, Excel, và PowerPoint [cite: 20]</li>
+    </ul>
+
+</body>
+</html>
