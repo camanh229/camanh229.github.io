@@ -1,137 +1,200 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vũ Thị Cẩm Anh - International Business & Data Analyst</title>
+    <title>Vu Thi Cam Anh - International Business & Data Analyst</title>
+    
     <style>
+        /* MAIN COLOR: BURGUNDY/DEEP PINK (#880E4F) */
+        
+        /* ------------------------------------- */
+        /* GENERAL STYLES AND LAYOUT */
+        /* ------------------------------------- */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
-            margin: 20px;
+            margin: 0;
+            padding: 40px;
             max-width: 900px;
             margin: auto;
-            padding: 20px;
-        }
-        h1 {
+            background-color: #ffffff;
             color: #333;
-            border-bottom: 2px solid #ccc;
-            padding-bottom: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.05);
+        }
+
+        /* ------------------------------------- */
+        /* HEADINGS */
+        /* ------------------------------------- */
+        h1 {
+            color: #880E4F;
+            font-size: 2.8em;
+            margin-bottom: 0px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
         }
         h2 {
+            color: #495057;
+            font-size: 1.5em;
+            border-bottom: 3px solid #880E4F;
+            padding-bottom: 8px;
+            margin-top: 35px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* ------------------------------------- */
+        /* DETAIL SECTIONS */
+        /* ------------------------------------- */
+        .header-contact p {
+            margin: 3px 0;
+            font-size: 0.95em;
             color: #555;
-            border-bottom: 1px solid #eee;
-            padding-bottom: 5px;
-            margin-top: 30px;
         }
         .section-item {
-            margin-bottom: 20px;
-        }
-        .header-contact p {
-            margin: 5px 0;
-        }
-        .skills-list, .gpa-details {
-            list-style: none;
-            padding-left: 0;
-        }
-        .skills-list li {
-            display: inline-block;
-            background: #eee;
-            padding: 5px 10px;
-            margin: 5px 5px 5px 0;
-            border-radius: 3px;
-        }
-        .gpa-details li {
-            margin-bottom: 5px;
+            margin-bottom: 25px;
+            padding-left: 15px;
+            border-left: 3px solid #F8BBD0;
         }
         .job-title, .school-name {
-            font-weight: bold;
+            font-weight: 700;
+            color: #343a40;
+            font-size: 1.1em;
         }
         .job-dates, .school-dates {
             font-style: italic;
-            color: #777;
+            color: #6c757d;
+            font-size: 0.9em;
+            margin-top: 2px;
+            display: block;
+        }
+        .section-item ul {
+            margin-top: 5px;
+            padding-left: 20px;
+            list-style-type: '— ';
+        }
+        .section-item ul li {
+            margin-bottom: 5px;
+        }
+
+        /* ------------------------------------- */
+        /* SKILLS */
+        /* ------------------------------------- */
+        .skills-list {
+            list-style: none;
+            padding-left: 0;
+            margin-top: 10px;
+        }
+        .skills-list li {
+            display: inline-block;
+            background: #880E4F;
+            color: white;
+            padding: 8px 15px;
+            margin: 5px 8px 5px 0;
+            border-radius: 5px;
+            font-size: 0.9em;
+            font-weight: 500;
+        }
+        .gpa-details {
+            list-style: none;
+            padding-left: 0;
+        }
+        .gpa-details li {
+            margin-bottom: 5px;
+            background: #FCE4EC;
+            padding: 5px 10px;
+            border-radius: 3px;
         }
     </style>
 </head>
 <body>
 
     <div class="header-contact">
-        <h1>VŨ THỊ CẨM ANH</h1>
-        <p><strong>Chức danh:</strong> Sinh viên Ngành Kinh tế & Kinh doanh Quốc tế</p>
-        [cite_start]<p><strong>Điện thoại:</strong> (+84) 336803229 [cite: 1]</p>
-        [cite_start]<p><strong>Email:</strong> camanh2292016@gmail.com [cite: 1]</p>
-        [cite_start]<p><strong>Địa chỉ:</strong> Hà Nội, Việt Nam [cite: 1]</p>
+        <h1>VU THI CAM ANH</h1>
+        <p><strong>Title:</strong> International Business & Data Analyst</p>
+        [cite_start]<p><strong>Phone:</strong> (+84) 336803229 [cite: 32]</p>
+        [cite_start]<p><strong>Email:</strong> camanh2292016@gmail.com [cite: 32]</p>
+        [cite_start]<p><strong>Address:</strong> Hanoi, Vietnam [cite: 32]</p>
     </div>
 
-    [cite_start]<h2>HỌC VẤN [cite: 2]</h2>
+    [cite_start]<h2>EDUCATION [cite: 33]</h2>
     <div class="section-item">
-        [cite_start]<div class="school-name">ĐẠI HỌC NGOẠI THƯƠNG (FOREIGN TRADE UNIVERSITY) [cite: 3]</div>
-        <div class="school-dates">Tháng 9, 2023 – Hiện tại</div>
-        [cite_start]<p>Cử nhân Kinh tế và Kinh doanh Quốc tế [cite: 4] (GPA: 4.0/4.0 – 9.4/10) [cite_start][cite: 4]</p>
+        [cite_start]<div class="school-name">FOREIGN TRADE UNIVERSITY [cite: 34]</div>
+        <div class="school-dates">Sep 2023 – Present</div>
+        [cite_start]<p>Bachelor of International Business and Economics [cite: 35] (GPA: 4.0/4.0 – 9.4/10) [cite_start][cite: 35]</p>
         <ul class="gpa-details">
-            [cite_start]<li>- Thuế và Hệ thống thuế tại Việt Nam: 9.8/10 [cite: 5]</li>
-            [cite_start]<li>- Nguyên lý Kế toán: 8.9/10 [cite: 5]</li>
-            [cite_start]<li>- Nguyên lý Tài chính: 8.5/10 [cite: 5]</li>
+            [cite_start]<li>- Taxation and Tax System in Viet Nam: 9.8/10 [cite: 36]</li>
+            [cite_start]<li>- Principles of Accounting: 8.9/10 [cite: 36]</li>
+            [cite_start]<li>- Principles of Finance: 8.5/10 [cite: 36]</li>
         </ul>
     </div>
 
     <div class="section-item">
-        [cite_start]<div class="school-name">ĐẠI HỌC SOPHIA (SOPHIA UNIVERSITY) [cite: 6]</div>
-        [cite_start]<div class="school-dates">2025 [cite: 7]</div>
-        [cite_start]<p>Khoa Nghệ thuật Tự do – Sinh viên Trao đổi [cite: 8] (GPA: 3.67/4.0) [cite_start][cite: 8]</p>
-        [cite_start]<p>Môn học: Kinh doanh Quốc tế, Truyền thông Quốc tế, Tiếng Nhật [cite: 9]</p>
+        [cite_start]<div class="school-name">SOPHIA UNIVERSITY [cite: 37]</div>
+        [cite_start]<div class="school-dates">2025 [cite: 38]</div>
+        [cite_start]<p>Faculty of Liberal Arts – Exchange Student [cite: 39] (GPA: 3.67/4.0) [cite_start][cite: 39]</p>
+        [cite_start]<p>Courses: International Business, International Communication, Japanese [cite: 40]</p>
     </div>
 
-    [cite_start]<h2>KHÓA HỌC [cite: 10]</h2>
+    [cite_start]<h2>COURSES [cite: 41]</h2>
     <ul class="gpa-details">
-        <li>- IBM Data Analyst Professional Certificate | [cite_start]IBM (Tháng 10, 2025) [cite: 11]</li>
-        <li>- Google Business Intelligence | [cite_start]Google (Tháng 10, 2025) [cite: 12]</li>
-        <li>- Inbound Marketing Optimization | [cite_start]Hubspot Academy (Tháng 9, 2025) [cite: 13]</li>
-        <li>- Market Research and Consumer Behavior | [cite_start]IE Business School (Tháng 5, 2024) [cite: 14]</li>
+        <li>- IBM Data Analyst Professional Certificate | [cite_start]IBM (Oct 2025) [cite: 42]</li>
+        <li>- Google Business Intelligence | [cite_start]Google (Oct 2025) [cite: 43]</li>
+        <li>- Inbound Marketing Optimization | [cite_start]Hubspot Academy (Sept 2025) [cite: 44]</li>
+        <li>- Market Research and Consumer Behavior | [cite_start]IE BUSINESS SCHOOL (May 2024) [cite: 45]</li>
     </ul>
 
-    [cite_start]<h2>KINH NGHIỆM LÀM VIỆC [cite: 15]</h2>
+    [cite_start]<h2>WORKING EXPERIENCE [cite: 46]</h2>
     
     <div class="section-item">
-        <div class="job-title">Phó Ban Truyền thông | EACC (External Affairs Cultural Club) - FTU</div>
-        [cite_start]<div class="job-dates">Tháng 9, 2024 – Tháng 6, 2025 [cite: 16]</div>
+        <div class="job-title">Deputy Head of Media and Communication | EACC - FTU</div>
+        [cite_start]<div class="job-dates">Sept 2024 – Jun 2025 [cite: 47]</div>
         <ul>
-            [cite_start]<li>Dẫn dắt đội ngũ 11 thành viên, áp dụng chiến lược dựa trên dữ liệu để tối ưu hóa các chiến dịch truyền thông. [cite: 16]</li>
-            [cite_start]<li>Thu thập và phân tích các chỉ số tương tác từ mạng xã hội, tăng phạm vi tiếp cận và sự tham gia sự kiện. [cite: 16]</li>
-            [cite_start]<li>Phối hợp với các đối tác bên trong và bên ngoài để đảm bảo chiến lược truyền thông dựa trên dữ liệu hiệu quả. [cite: 16]</li>
+            [cite_start]<li>Led a team of 11 members, applying data-driven strategies to optimize communication campaigns. [cite: 47]</li>
+            [cite_start]<li>Collected and analyzed engagement metrics from social media, increasing event reach and participation. [cite: 47]</li>
+            [cite_start]<li>Coordinated with internal and external partners to ensure effective data-based communication strategies. [cite: 47]</li>
         </ul>
     </div>
 
     <div class="section-item">
-        <div class="job-title">Điều phối viên Truyền thông Nội bộ | Living Skill Club - FTU</div>
-        [cite_start]<div class="job-dates">Tháng 10, 2023 – Tháng 9, 2024 [cite: 16]</div>
+        <div class="job-title">Internal Communications Coordinator | Living Skill Club - FTU</div>
+        [cite_start]<div class="job-dates">Oct 2023 – Sept 2024 [cite: 47]</div>
         <ul>
-            [cite_start]<li>Phân tích phản hồi từ gần 100 thành viên cộng đồng để cải thiện sự gắn kết nội bộ. [cite: 16]</li>
-            [cite_start]<li>Tạo bảng điều khiển hiệu suất để theo dõi sự tham gia và duy trì thành viên. [cite: 16]</li>
-            [cite_start]<li>Thúc đẩy các hoạt động dựa trên dữ liệu, tăng cường sự gắn kết trong toàn tổ chức. [cite: 16]</li>
+            [cite_start]<li>Analyzed feedback from nearly 100 community members to improve internal engagement. [cite: 47]</li>
+            [cite_start]<li>Created performance dashboards to track member participation and retention. [cite: 47]</li>
+            [cite_start]<li>Promoted data-informed activities that enhanced cohesion across the organization. [cite: 47]</li>
+        </ul>
+    </div>
+    
+    <div class="section-item">
+        <div class="job-title">Head of Human Resources | ECLUB – CSP English Club</div>
+        [cite_start]<div class="job-dates">Oct 2020 – June 2022 [cite: 47]</div>
+        <ul>
+            [cite_start]<li>Implemented member performance tracking using data collection tools. [cite: 47]</li>
+            [cite_start]<li>Managed operations and revenue from club events, analyzing income and expenses (~$320). [cite: 47]</li>
+            [cite_start]<li>Designed initiatives to strengthen member learning and development through measurable KPIs. [cite: 47]</li>
         </ul>
     </div>
 
-    [cite_start]<h2>GIẢI THƯỞNG VÀ DANH HIỆU [cite: 17]</h2>
+    [cite_start]<h2>HONORS AND AWARDS [cite: 48]</h2>
     <ul class="gpa-details">
-        [cite_start]<li><strong>Á quân 1 – Cuộc thi Khởi nghiệp Học thuật I-Impact (2025)</strong> [cite: 18]</li>
-        [cite_start]<li><strong>Học bổng Xuất sắc Học thuật – Đại học Ngoại Thương (2023 - 2024)</strong> [cite: 18]</li>
-        [cite_start]<li><strong>Học bổng Xuất sắc Học thuật - Vietcombank (2024)</strong> [cite: 18]</li>
-        [cite_start]<li><strong>Bằng khen, Cuộc thi Nghiên cứu Khoa học (2025)</strong>: Nghiên cứu về sở hữu trí tuệ tại các trường đại học Việt Nam. [cite: 18]</li>
-        [cite_start]<li><strong>Học bổng Dành cho Sinh viên Trao đổi Xuất sắc - Sophia University (2025)</strong> [cite: 18]</li>
-        [cite_start]<li><strong>Giấy chứng nhận Thành tích từ Khoa Kinh tế & Kinh doanh Quốc tế - FTU (2024)</strong> [cite: 18]</li>
+        [cite_start]<li><strong>First Runner-up – I-Impact Academic Startup Competition (2025)</strong> [cite: 49]</li>
+        [cite_start]<li><strong>Academic Excellence Scholarship – Foreign Trade University (2023 - 2024)</strong> [cite: 49]</li>
+        [cite_start]<li><strong>Academic Excellence Scholarship - Vietcombank (2024)</strong> [cite: 49]</li>
+        [cite_start]<li><strong>Honorable Mention, Scientific Research Competition (2025)</strong>: Researched intellectual property issues in Vietnamese universities. [cite: 49]</li>
+        [cite_start]<li><strong>Scholarship For Excellent Exchange Students - Sophia University (2025)</strong> [cite: 49]</li>
+        [cite_start]<li><strong>Certificate Of Achievement from the School of International Economics and Business - FTU (2024)</strong> [cite: 49]</li>
     </ul>
     
-    [cite_start]<h2>KỸ NĂNG [cite: 19]</h2>
+    [cite_start]<h2>SKILLS [cite: 50]</h2>
     <ul class="skills-list">
-        [cite_start]<li>Tiếng Anh [cite: 20]</li>
-        [cite_start]<li>Thống kê [cite: 20]</li>
-        [cite_start]<li>Giải quyết vấn đề [cite: 20]</li>
-        [cite_start]<li>Trực quan hóa Dữ liệu (Data Visualization) [cite: 20]</li>
-        [cite_start]<li>Tư duy Phân tích (Analytical thinking) [cite: 20]</li>
-        [cite_start]<li>MS Word, Excel, và PowerPoint [cite: 20]</li>
+        [cite_start]<li>English [cite: 51]</li>
+        [cite_start]<li>Statistics [cite: 51]</li>
+        [cite_start]<li>Data Visualization [cite: 51]</li>
+        [cite_start]<li>Problem solving [cite: 51]</li>
+        [cite_start]<li>Analytical thinking [cite: 51]</li>
+        [cite_start]<li>MS Word, Excel, and PowerPoint [cite: 51]</li>
     </ul>
 
 </body>
 </html>
-
