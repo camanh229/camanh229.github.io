@@ -21,6 +21,33 @@
             background-color: #ffffff;
             color: #333;
             box-shadow: 0 0 20px rgba(0,0,0,0.05);
+            
+            /* CSS CHO STICKER ANYA-CHAN LÀM NỀN (ĐÃ SỬA: anya.jpg) */
+            background-image: url('images/anya.jpg');
+            background-repeat: repeat;
+            background-size: 150px; /* Kích thước sticker */
+            background-attachment: fixed;
+        }
+
+        /* ------------------------------------- */
+        /* TẠO ĐỘ MỜ CHO HÌNH NỀN VÀ NỘI DUNG NỔI LÊN TRÊN */
+        /* ------------------------------------- */
+        /* Tạo một lớp phủ (overlay) giả mờ */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.95); /* Màu trắng mờ (độ trong suốt 95%) */
+            z-index: -1; /* Đặt dưới nội dung */
+        }
+        
+        /* Đảm bảo nội dung (text, menu) không bị mờ và hiển thị trên lớp phủ */
+        .main-nav, .header-contact, h2, .section-item, .gpa-details, .skills-list {
+            position: relative;
+            z-index: 1; 
         }
 
         /* ------------------------------------- */
