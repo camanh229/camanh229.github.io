@@ -6,7 +6,7 @@
     <title>Vu Thi Cam Anh - International Business & Data Analyst</title>
     
     <style>
-        /* MÀU CHỦ ĐẠO: BURGUNDY/DEEP PINK (#880E4F) */
+        /* MÀU CHỦ ĐẠO: BURGUNDY/DEEP PINK (#880E4F) - THIẾT KẾ CLEAN */
         
         /* ------------------------------------- */
         /* THIẾT LẬP CHUNG VÀ BỐ CỤC */
@@ -18,16 +18,16 @@
             padding: 40px;
             max-width: 900px;
             margin: auto;
-            background-color: #ffffff;
+            background-color: #ffffff; /* Nền trắng sạch */
             color: #333;
-            box-shadow: 0 0 20px rgba(0,0,0,0.05);
+            box-shadow: 0 0 20px rgba(0,0,0,0.05); /* Bóng đổ nhẹ nhàng */
         }
 
         /* ------------------------------------- */
         /* TIÊU ĐỀ */
         /* ------------------------------------- */
         h1 {
-            color: #880E4F;
+            color: #880E4F; /* Hồng Đậm */
             font-size: 2.8em;
             margin-bottom: 0px;
             text-transform: uppercase;
@@ -36,7 +36,7 @@
         h2 {
             color: #495057;
             font-size: 1.5em;
-            border-bottom: 3px solid #880E4F;
+            border-bottom: 3px solid #880E4F; /* Viền Hồng Đậm */
             padding-bottom: 8px;
             margin-top: 35px;
             text-transform: uppercase;
@@ -44,16 +44,16 @@
         }
 
         /* ------------------------------------- */
-        /* ẢNH ĐẠI DIỆN */
+        /* ẢNH ĐẠI DIỆN VÀ STYLE CUTE/NỔI BẬT */
         /* ------------------------------------- */
         .profile-photo {
             width: 160px; 
             height: 160px;
             border-radius: 50%; /* Làm ảnh tròn */
             object-fit: cover; 
-            margin: 0 auto 30px auto; /* Canh giữa và tạo khoảng cách */
-            border: 5px solid #F8BBD0; /* Viền hồng nhạt */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 0 auto 30px auto;
+            border: 7px double #F48FB1; /* Viền hồng đôi cute */
+            box-shadow: 0 0 10px rgba(136, 14, 79, 0.4); /* Bóng nhẹ màu hồng */
             display: block; 
         }
 
@@ -65,10 +65,19 @@
             font-size: 0.95em;
             color: #555;
         }
+        .header-contact a {
+            color: #880E4F; /* Màu link khớp với màu chủ đạo */
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .header-contact a:hover {
+            text-decoration: underline;
+        }
+
         .section-item {
             margin-bottom: 25px;
             padding-left: 15px;
-            border-left: 3px solid #F8BBD0;
+            border-left: 3px solid #F8BBD0; /* Dấu gạch Hồng nhạt bên trái */
         }
         .job-title, .school-name {
             font-weight: 700;
@@ -115,7 +124,7 @@
         }
         .gpa-details li {
             margin-bottom: 5px;
-            background: #FCE4EC;
+            background: #FCE4EC; /* Nền Hồng rất nhạt cho chi tiết */
             padding: 5px 10px;
             border-radius: 3px;
         }
@@ -127,8 +136,11 @@
         <img src="images/profile.jpg" alt="Profile Picture" class="profile-photo">
         <h1>VU THI CAM ANH</h1>
         <p><strong>Title:</strong> International Business & Data Analyst</p>
+        
+        <p><strong>Email:</strong> <a href="mailto:camanh2292016@gmail.com">camanh2292016@gmail.com</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/camanh229" target="_blank">github.com/camanh229</a></p>
+        
         <p><strong>Phone:</strong> (+84) 336803229</p>
-        <p><strong>Email:</strong> camanh2292016@gmail.com</p>
         <p><strong>Address:</strong> Hanoi, Vietnam</p>
     </div>
 
@@ -137,12 +149,7 @@
         <div class="school-name">FOREIGN TRADE UNIVERSITY</div>
         <div class="school-dates">Sep 2023 – Present</div>
         <p>Bachelor of International Business and Economics (GPA: 4.0/4.0 – 9.4/10)</p>
-        <ul class="gpa-details">
-            <li>- Taxation and Tax System in Viet Nam: 9.8/10</li>
-            <li>- Principles of Accounting: 8.9/10</li>
-            <li>- Principles of Finance: 8.5/10</li>
-        </ul>
-    </div>
+        </div>
 
     <div class="section-item">
         <div class="school-name">SOPHIA UNIVERSITY</div>
